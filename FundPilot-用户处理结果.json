@@ -1,0 +1,200 @@
+{
+  "exportedAt": "2026-10-17T06:11:32.028Z",
+  "simulation": true,
+  "users": [
+    {
+      "user": {
+        "id": "U01",
+        "name": "U01",
+        "subject": "更换工资卡后扣款失败",
+        "profile": "25 岁，互联网公司员工，税后月收入约 12,000 元，每月可结余约 3,500 元。",
+        "investment": "投资经验约一年，风险承受能力记录为 R3，主要持有货币基金和本产品。",
+        "goal": "为三年后的购车首付款积累资金。",
+        "amount": 500,
+        "months": 8,
+        "returns": 2.1,
+        "record": "已连续定投 8 个月，每月 500 元，当前累计收益约 2.1%。",
+        "situation": "更换工资卡后连续两次扣款失败，定投计划自动暂停。",
+        "message": "最近换了工资卡，忘记往原来的卡里放钱。这个要怎么恢复？",
+        "behavior": "两天内查看过三次定投计划页面，但未完成操作。",
+        "history": "无历史投诉。",
+        "preference": "允许接收 App 消息，不希望接听营销电话。",
+        "channel": "app",
+        "refusal": false,
+        "funds": "unverified",
+        "risk": "recorded",
+        "liquidity": null,
+        "expense": null,
+        "finance": "每月可结余约 3,500 元。",
+        "status": "待处理",
+        "revision": 0
+      },
+      "decision": {
+        "type": "操作协助",
+        "headline": "提供扣款与银行卡操作说明",
+        "reason": "中断与扣款操作有关，用户主动寻求帮助。说明操作方式，是否恢复由用户自行决定。",
+        "primary": "guide",
+        "priority": 2,
+        "minutes": 3,
+        "goal": "解决操作障碍",
+        "channel": "App 消息",
+        "refused": false,
+        "tight": false,
+        "gap": null,
+        "evidence": [
+          {
+            "code": "S01",
+            "title": "操作求助信号",
+            "fact": "最近换了工资卡，忘记往原来的卡里放钱。这个要怎么恢复？ 更换工资卡后连续两次扣款失败，定投计划自动暂停。 两天内查看过三次定投计划页面，但未完成操作。",
+            "why": "结合主动求助与操作记录提供说明；页面浏览不代表购买意愿。"
+          },
+          {
+            "code": "G04",
+            "title": "渠道与授权",
+            "fact": "允许接收 App 消息，不希望接听营销电话。",
+            "why": "仅使用已允许的 App 渠道，不扩展到短信或电话。"
+          }
+        ],
+        "actions": [
+          "guide",
+          "transfer",
+          "record",
+          "defer"
+        ]
+      }
+    },
+    {
+      "user": {
+        "id": "U02",
+        "name": "U02",
+        "subject": "市场下跌后产生担忧",
+        "profile": "29 岁，制造业公司员工，税后月收入约 9,000 元，每月住房贷款支出约 3,200 元。",
+        "investment": "有两年投资经验，一年前的风险承受能力评估结果为 R3。",
+        "goal": "希望进行五年以上的长期积累，但没有设置明确的金额目标。",
+        "amount": 1000,
+        "months": 11,
+        "returns": -11.8,
+        "record": "已连续定投 11 个月，每月 1,000 元，当前累计亏损约 11.8%。",
+        "situation": "近期亏损扩大后，用户主动暂停定投。",
+        "message": "最近跌得比较多，我有点担心，不知道还要不要继续。",
+        "behavior": "暂停后多次查看产品收益和赎回页面，但尚未提交赎回。",
+        "history": "未提供历史沟通。",
+        "preference": "允许接收 App 消息。",
+        "channel": "app",
+        "refusal": false,
+        "funds": "unknown",
+        "risk": "unknown",
+        "liquidity": 8000,
+        "expense": null,
+        "finance": "每月可结余约 2,000 元，活期资金约 8,000 元。未提供近期资金安排，风险承受能力未重新评估。",
+        "status": "已处理",
+        "revision": 0
+      },
+      "decision": {
+        "type": "待核实资料",
+        "headline": "先核实资金与风险情况",
+        "reason": "当前资料不足以支持继续投入判断。通过中性说明回应疑问，邀请用户自愿补充资料。",
+        "primary": "assess",
+        "priority": 2,
+        "minutes": 5,
+        "goal": "补齐信息，回应疑问",
+        "channel": "App 消息",
+        "refused": false,
+        "tight": false,
+        "gap": null,
+        "evidence": [
+          {
+            "code": "G03",
+            "title": "资金与适当性待核实",
+            "fact": "当前风险承受能力待确认；近期资金安排未知。",
+            "why": "已有 R3 记录不代表当前适合继续投入；不能直接推荐恢复、加仓或换产品。"
+          },
+          {
+            "code": "S02",
+            "title": "市场波动担忧",
+            "fact": "最近跌得比较多，我有点担心，不知道还要不要继续。 已连续定投 11 个月，每月 1,000 元，当前累计亏损约 11.8%。 暂停后多次查看产品收益和赎回页面，但尚未提交赎回。",
+            "why": "定投不能消除风险；浏览赎回页面不等于已决定赎回。"
+          },
+          {
+            "code": "G04",
+            "title": "渠道与授权",
+            "fact": "允许接收 App 消息。",
+            "why": "仅使用已允许的 App 渠道，不扩展到短信或电话。"
+          }
+        ],
+        "actions": [
+          "assess",
+          "transfer",
+          "record",
+          "defer"
+        ]
+      }
+    },
+    {
+      "user": {
+        "id": "U03",
+        "name": "U03",
+        "subject": "家庭医疗支出增加",
+        "profile": "36 岁，已婚，有一名子女，家庭税后月收入约 18,000 元。",
+        "investment": "有三年投资经验，风险承受能力记录为 R3。",
+        "goal": "原计划通过长期定投为子女教育储备资金。",
+        "amount": 2000,
+        "months": 5,
+        "returns": -3.5,
+        "record": "已连续定投 5 个月，每月 2,000 元，当前累计亏损约 3.5%。",
+        "situation": "用户主动终止定投，并赎回了部分基金份额。",
+        "message": "家里最近有一笔医疗支出，暂时不考虑继续投入，也不要再劝我买了。",
+        "behavior": "未提供其他行为信息。",
+        "history": "用户已经向人工客服表示暂不接受产品营销。",
+        "preference": "未单独设置。",
+        "channel": "none",
+        "refusal": true,
+        "funds": "tight",
+        "risk": "recorded",
+        "liquidity": 20000,
+        "expense": 60000,
+        "finance": "家庭每月固定支出约 13,000 元，可随时使用的资金约 20,000 元。家庭成员预计发生约 60,000 元医疗支出。",
+        "status": "待处理",
+        "revision": 0
+      },
+      "decision": {
+        "type": "保护意愿",
+        "headline": "停止营销，保留服务支持",
+        "reason": "用户已明确拒绝营销。停止营销触达，不再推动继续投入。",
+        "primary": "stop",
+        "priority": 1,
+        "minutes": 2,
+        "goal": "落实免打扰，避免重复营销",
+        "channel": "不触达",
+        "refused": true,
+        "tight": true,
+        "gap": 40000,
+        "evidence": [
+          {
+            "code": "G01",
+            "title": "明确拒绝营销",
+            "fact": "用户已经向人工客服表示暂不接受产品营销。",
+            "why": "历史拒绝不会被新留言或运营修改覆盖；只能进行内部记录。"
+          },
+          {
+            "code": "G02",
+            "title": "近期资金需求",
+            "fact": "预计支出约 60,000 元，可用资金约 20,000 元；已知口径缺口约 40,000 元。",
+            "why": "不以恢复定投为目标；缺口仅按已提供资金口径测算，不代表全部资产。"
+          },
+          {
+            "code": "G04",
+            "title": "渠道与授权",
+            "fact": "未单独设置。",
+            "why": "本轮不主动触达；转交人工也只是内部服务任务。"
+          }
+        ],
+        "actions": [
+          "stop",
+          "record",
+          "defer"
+        ]
+      }
+    }
+  ]
+}
